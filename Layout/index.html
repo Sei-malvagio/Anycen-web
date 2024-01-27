@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="/Design/styles.css" rel="stylesheet">
+  
+  <!-- bootstrap css -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script type="text/javascript" src="cdn_modules/bootstrap@5.3.2/scss/_modal.scss"></script>
+
+<!-- Ionic CDN -->
+<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+ 
+ <script src="https://kit.fontawesome.com/bfcf1e1d0e.js" crossorigin="anonymous"></script>
+  <title>Anycen</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md fixed-top shadow-sm nav-bg-white z-5">
+    <div class="container-fluid d-flex">
+      <a class="navbar-brand d-flex" href="#">
+        <img src="/Images/anycenLogo.png" width="43" height="43" alt="Anycen">
+        <span class="font-luck brand-logo mt-1 ms-2 fw-bolder fs-1 text-uppercase" style="color:var(--purple);">Any<span style="color:#6F3FFF;">cen</span></span>
+      </a>
+      <div class="mt-0 mx-3 d-flex">
+       <a href="/">
+         <ion-icon id="login" class="d-none d-md-block me-2 fs-3 cursor-pointer" name="person"></ion-icon>
+       </a>
+        <ion-icon id="sunny" class="fs-3 cursor-pointer" name="sunny"></ion-icon>
+        <ion-icon id="night" class="fs-3 cursor-pointer" name="moon"></ion-icon>
+      </div>
+    </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section id="firstSection" class=" ld-flex justify-content-center align-items-center space home-sun" style="
+    background-size: cover;
+    padding-bottom: 130px">
+    <div class="container">
+      <div class="row align-items-center mt-5">
+        <div class="col-md-6 scrollAnimationHidden">
+          <h1 class="text font-titit mt-3 fw-bolder mb-0 text-uppercase display-5">Welcome to</h1>
+          <h1 class="display-4 mt-0 brand-logo fw-semibold text-uppercase" style="color:var(--purple);">Any<span style="color:#6F3FFF">cen</span>
+          <span class="position-absolute mt-1 ms-1 badge fw-normal text-uppercase ps-2" style="font-size:.6rem;
+          background-color:var(--purple);
+          padding-right: 23px;">chatbot<ion-icon class="position-absolute ms-1" name="chatbox-ellipses"></ion-icon></span>
+          </h1>
+          <p class="ph fw-normal font-mont mt-3 mb-4">
+            Ingin membuat bot wa anda tanpa coding?, Gasken pakai <strong>Anycen CHATBOT</strong>, dijamin ngebut dan nyaman deh.</p>
+          <div class="btn-grad position-relative">
+          <a href="" class="btn-an text-uppercase fw-bolder font-mont" style="font-size:.9rem;">Get started<ion-icon class="right-animation position-absolute mt-1 ms-2 medium" name="send">
+          </ion-icon>
+          </a>
+        </div>
+        </div>
+        <div class="col-md-6 mt-sm-4 mt-5 text-center scrollAnimationHidden">
+        <img class="img-fluid position-relative z-100" src="/Images/Chatbot.svg" width="300px" height="300px" alt="anycen Chatbot"<i class="fa fa-gear rotation position-absolute text-muted"></i>
+      </div>
+      </div>
+    </div>
+    </section>
+    
+    <section class="mt-sm-5 mt-4 pt-3 pb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h1 class="text text-center font-mont scrollAnimationHidden">Our Service</h1>
+          <p class="font-mont ph text-center scrollAnimationHidden">Apa saja layanan yang kami sediakan?</p>
+          <div class="col-md-6 col-lg-4 mt-5 service-body scrollAnimationHidden">
+           <div class="card">
+             <div class="card-body mt-3">
+               <i class="card-title default-color fa fa-clock display-4 rotation"></i>
+               <h5 class="card-subtitle mb-3 mt-3 fs-3 font-mont">
+                 Real-time
+               </h5>
+               <p class="card-text ph font-mont lh-lg tracking-wide">
+                 Dalam lingkungan real-time, bot berfungsi untuk mitra pintar <strong>siap membantu dan memberikan jawaban yang akurat untuk pengguna</strong>.
+               </p>
+             </div>
+           </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-5 service-body scrollAnimationHidden">
+           <div class="card">
+             <div class="card-body mt-3">
+               <ion-icon class="card-title display-4" name="newspaper"></ion-icon>
+               <h5 class="card-subtitle mb-3 mt-3 fs-3 font-mont">
+                 Multifunctional 
+               </h5>
+               <p class="card-text ph font-mont lh-lg tracking-wide">
+                 Anycen memiliki <mark class="rounded"><strong>900+</strong></mark> fitur yang sangat berguna, Terutama fitur premium agar kamu dapat cuan, serta tersedia fitur <strong>menu-menu </strong> yang di dalamnya memiliki fitur lagi. Jika kamu penasaran silahkan klik <span class="text-primary fw-bold cursor-pointer link-primary link-underline-100-hover" data-bs-toggle="modal" data-bs-target="#showFeatures">Disini</span> untuk melihat menu-menunya.
+               </p>
+             </div>
+             <div class="modal fade" id="showFeatures" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered">
+                 <div class="modal-content">
+                   <div class="modal-header border-bottom">
+                     <h1 class="modal-title fs-4 fw-bolder font-mont text" id="showFeatures">Anycen Features</h1>
+                     </div>
+                     <div class="modal-body">
+                       <p class="ph font-mont">
+                         ╎言 .aimenu</br>
+                         ╎言 .animemenu</br>
+                         ╎言 .downloadmenu</br>
+                         ╎言 .funmenu</br>
+                         ╎言 .gamemenu</br>
+                         ╎言 .groupmenu</br>
+                         ╎言 .infomenu</br>
+                         ╎言 .internetmenu</br>
+                         ╎言 .islamicmenu</br>
+                         ╎言 .mainmenu</br>
+                         ╎言 .makermenu</br>
+                         ╎言 .menunsfw</br>
+                         ╎言 .menurandom</br>
+                         ╎言 .menuowner</br>
+                         ╎言 .quotesmenu</br>
+                         ╎言 .rpgmenu</br>
+                         ╎言 .stikermenu</br>
+                         ╎言 .toolsmenu
+                       </p>
+                       </div>
+                       <div class="modal-footer border-top">
+                         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+                         </div>
+                         </div>
+                         </div>
+                         </div>
+           </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-5 service-body scrollAnimationHidden">
+           <div class="card">
+             <div class="card-body mt-3">
+               <ion-icon class="card-title display-4" name="radio-button-on-outline"></ion-icon>
+               <h5 class="card-subtitle mb-3 mt-3 fs-3 font-mont">
+                 Uptime
+               </h5>
+               <p class="card-text ph font-mont lh-lg">
+                 <strong>Anycen</strong> memiliki server hosting yang terbilang bagus, dan Anycen akan melayani <strong>bot anda online selama 24/7</strong>.
+               </p>
+             </div>
+           </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-5 service-body scrollAnimationHidden">
+           <div class="card">
+             <div class="card-body mt-3">
+               <i class="card-title fa fa-gear display-4 rotation" name="radio-button-on-outline"></i>
+               <h5 class="card-subtitle mb-3 mt-3 fs-3 font-mont">
+                 Full Customize
+               </h5>
+               <p class="card-text ph font-mont lh-lg">
+                 <strong>Anycen</strong> juga meiliki fitur customisasi untuk command, anda bebas mengubah command anda sesuka hati.
+               </p>
+             </div>
+           </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-5 service-body scrollAnimationHidden">
+           <div class="card">
+             <div class="card-body mt-3">
+               <ion-icon class="card-title display-4" name="build"></ion-icon>
+               <h5 class="card-subtitle mb-3 mt-3 fs-3 font-mont">
+                 Easy to use
+               </h5>
+               <p class="card-text ph font-mont lh-lg mb-2">
+                 <strong>Anycen</strong> mudah untuk dipakai, dan memiliki dashboard yang friendly.
+               </p>
+             </div>
+           </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-5 service-body scrollAnimationHidden">
+           <div class="card">
+             <div class="card-body mt-3">
+               <ion-icon class="card-title display-4 UpBottomAnimation" name="cloud-upload"></ion-icon>
+               <h5 class="card-subtitle mb-3 mt-3 fs-3 font-mont">
+                 Up-to-date
+               </h5>
+               <p class="card-text ph font-mont lh-lg mb-2">
+                 <strong>Anycen</strong> Akan <strong>up-to-date</strong>, yang berarti selalu meng-update command-command baru yang berguna.
+               </p>
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="tester mt-sm-5 mt-5 py-5 px-5">
+      <div class="container">
+        <div class="row d-flex justify-content-evenly text-center">
+          <div class="col-md-2 col-lg-2 testers-item scrollAnimationHidden">
+            <ion-icon class="card-title fs-1" name="people-outline"></ion-icon>
+            <h2 class="text font-mont">100k+</h2>
+            <p class="ph fs-sm-5">Clients</p>
+          </div>
+          <div class="col-md-2 col-lg-2 testers-item scrollAnimationHidden">
+            <ion-icon class="card-title fs-1" name="construct-outline"></ion-icon>
+            <h2 class="text font-mont">380+</h2>
+            <p class="ph">Features</p>
+          </div>
+          <div class="col-md-2 col-lg-2 testers-item scrollAnimationHidden">
+            <ion-icon class="card-title fs-1 rotation" name="time-outline"></ion-icon>
+            <h2 class="text font-mont">99,95%</h2>
+            <p class="ph">Uptime</p>
+          </div>
+          <div class="col-md-2 col-lg-2 testers-item scrollAnimationHidden">
+            <ion-icon class="card-title fs-1" name="paper-plane-outline"></ion-icon>
+            <h2 class="text font-mont">800B+</h2>
+            <p class="ph">Messages sended</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="memberships mt-sm-5 mt-5">
+      <div class="container">
+        <h1 class="text font-mont text-center scrollAnimationHidden">Memberships</h1>
+        <p class="ph font-mont text-center scrollAnimationHidden">Ada harga, ada <strong>kualitas</strong>.</p>
+        <div class="d-flex justify-content-center mb-sm-5 mb-4 scrollAnimationHidden">
+          <div id="plan" class="btn-grup py-2 px-2 rounded shake">
+          <a id="time-plan" class="btn font-mont fw-bolder text plan-box" style="font-family:'Montserrat';">Perbulan</a>
+          <a id="time-plan" class="btn font-mont fw-bolder plan-box" style="font-family:'Montserrat';">Pertahun</a>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 scrollAnimationHidden">
+          <div class="card memb-box">
+            <div class="card-body memb-box">
+              <h5 class="text fs-3 font-mont fw-bolder mb-3">Starter</h5>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ms-4 ph">200 Fitur</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">Limit 5000</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">Masa aktif 5 hari</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">1 Nomor owner</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">Customize bot</p>
+              <p class="card-text fs-4 ph font-mont">Free</p>
+              <a href="/" class="btn fw-bolder text-light" style="font-family:'Montserrat';
+              background-color:var(--purple);">Subscribe</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-sm-0 mt-4 scrollAnimationHidden">
+          <div class="card position-relative memb-box">
+            <div class="position-absolute" style="
+            top:-14px;
+            left: 57%;
+            ">
+             <span class="badge text-bg-danger fw-bolder text-end font-mont py-2 px-3" style="
+             font-size:.8rem;
+             ">Most popular</span>
+            </div>
+            <div class="card-body">
+              <h5 class="text fs-3 font-mont fw-bolder mb-3">Medium</h5>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">500 Fitur</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">Limit 5000</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">Masa aktif 5 hari</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">2 Nomor owner</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">Customize bot</p>
+              <p id="month-pass" class="card-text ph font-mont" style="font-size:2rem;">10k<span class="fw-bold" style="font-size:.8rem;">/ bulan</span></p>
+              <p id="year-pass" class="card-text ph font-mont" style="font-size:2rem;">25k<span class="fw-bold" style="font-size:.8rem;">/ tahun</span></p>
+              <a href="/" class="btn fw-bolder text-light" style="font-family:'Montserrat';
+              background-color: var(--purple);">Subscribe</a>
+            </div>
+          </div>
+          </div>
+          <div id="pro-membership"></div>
+          <div class="col-md-6 col-lg-4 mt-sm-5 mt-4  scrollAnimationHidden">
+          <div class="card position-relative memb-box">
+            <div class="position-absolute" style="
+            top:-14px;
+            left: 63%;
+            ">
+             <span class="badge text-bg-success fw-bolder text-end font-mont py-2 px-3" style="
+             font-size:.8rem;
+             ">Best value</span>
+            </div>
+            <div class="card-body">
+              <h5 class="text fs-3 font-mont fw-bolder mb-3">Pro</h5>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">900+ Fitur</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">Limit 5000</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">Masa aktif 5 hari</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">4 Nomor owner</p>
+              <ion-icon class="fs-5 position-absolute ph" name="chevron-forward-circle-outline"></ion-icon>
+              <p class="card-text font-mont ph ms-4">Customize bot</p>
+              <p id="month-pass" class="card-text ph font-mont" style="font-size:2rem;">20k<span class="fw-bold" style="font-size:.8rem;">/ bulan</span></p>
+              <p id="year-pass" class="card-text ph font-mont" style="font-size:2rem;">35k<span class="fw-bold" style="font-size:.8rem;">/ tahun</span></p>
+                <a href="/" class="btn fw-bolder text-light" style="font-family:'Montserrat';
+                  background-color: var(--purple);">Subscribe</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="qna tester mt-sm-5 mt-5 py-5 ">
+      <div class="container">
+        <h1 class="text font-mont text-center  scrollAnimationHidden">Q & A</h1>
+        <p class="ph font-mont text-center  scrollAnimationHidden">Sesi tanya jawab.</p>
+      <div class="accordion scrollAnimationHidden" id="qna">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button font-mont bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#manfaat" aria-expaded="true" aria-control="manfaat">Apa manfaat Anycen?</button>
+          </h2>
+          <div id="manfaat" class="accordion-collapse collapse" data-bs-parent="#qna">
+            <div class="accordion-body font-mont lh-base">
+              <strong>Manfaat kamu menggunakan anycen yang pertama, mendapatkan <span style="color:var(--purple)">fitur yang sangat banyak</span>, kedua bisa <span style="color:var(--purple)">re-sell command-command premium</span>, yang ketiga, harga user-premium pun <span style="color:var(--purple)">murah meriah</span>, maupun perbulan/pertahun, yang keempat, <span style="color:var(--purple)">memiliki server yang bertahan lama</span>, yang kelima, owner ramah/baik/tidak sombong, yang keenam, bisa request commands baru untuk <mark class="rounded text-light px-1" style="background-color:var(--purple);">Premium-user</mark>.</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-2 scrollAnimationHidden" id="qna">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button font-mont bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#fiturAnycen" aria-expaded="true" aria-control="fiturAnycen">Berapa total semua fitur di Anycen?</button>
+          </h2>
+          <div id="fiturAnycen" class="accordion-collapse collapse" data-bs-parent="#qna">
+            <div class="accordion-body font-mont lh-base">
+              Total fitur di <strong><span style="color:var(--purple);">Anycen</span></strong> itu sekitar 900+, dan fitur tersebut hanya dapat diakses oleh pengguna <strong><a href="#pro-membership" class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" style="color:var(--purple);">Membership Pro</a></strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-2 scrollAnimationHidden" id="qna">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button font-mont bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#howToUse" aria-expaded="true" aria-control="howToUse">Bagaimana cara menginstalasi Anycen?</button>
+          </h2>
+          <div id="howToUse" class="accordion-collapse collapse" data-bs-parent="#qna">
+            <div class="accordion-body font-mont lh-base">
+              Cara menginstalasinya adalah 
+              1.Pepek
+              2. agat pepek
+              3. gatau gw kontol
+              4. memek memek ahh
+              selesai.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion mt-2 scrollAnimationHidden" id="qna">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button font-mont bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#bug" aria-expaded="true" aria-control="bug">Bagaimana saya melaporkan jika terjadi bug?</button>
+          </h2>
+          <div id="bug" class="accordion-collapse collapse" data-bs-parent="#qna">
+            <div class="accordion-body font-mont lh-base d-flex flex-wrap">
+              Kalian bisa menghubungi 2 nomor dibawah.
+              <a href="https://wa.me/6281953504898" class="btn btn-warning fw-medium mt-2">
+                Jeet
+                </a>
+              <a href="https://wa.me/6285811523745" class="btn btn-warning font-mont fw-medium ms-2 mt-2">
+                Agat
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    
+    <!-- footer -->
+    <section id="footer" class="py-5 px-5">
+      <div class="container-fluid">
+            <a class="navbar-brand d-flex justify-content-center me-1" href="#">
+            <img src="/Images/anycenLogo.png" width="43" height="43" alt="Anycen">
+            <span class="font-luck brand-logo mt-1 ms-2 fw-bolder fs-1 text-uppercase" style="color:var(--purple);">Any<span style="color:#6F3FFF;">cen</span></span>
+          </a>
+            <ul class="d-flex flex-row justify-content-center">
+              <a href="" class="link-underline link-underline-opacity-0 me-4 me-sm-5 ms-sm-0 font-mont ph">Dokumentasi</a>
+              <a href="" class="link-underline link-underline-opacity-0 me-3 me-sm-3 font-mont ph">Hubungi</a>
+            </ul>
+            <ul class="d-flex flex-row justify-content-center fs-2">
+              <a href="" class="me-4 ph">
+                <ion-icon class="sosmed" name="logo-instagram"></ion-ico>
+              </a>
+              <a href="" class="sosmed me-4 ph">
+                <ion-icon class="sosmed" name="logo-tiktok"></ion-icon>
+              </a>
+              <a href="" class="sosmed me-4 ph">
+                <ion-icon class="sosmed" name="logo-twitter"></ion-icon>
+              </a>
+              <a href="" class="sosmed me-4 ph">
+                <ion-icon class="sosmed" name="logo-github"></ion-icon>
+              </a>
+            </ul>
+            <p id="copyright" class="ph text-center font-mont" style="
+            font-size: .9rem;"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="navbar navbar-expand fixed-bottom z-3 shadow-lg d-md-none">
+    <div class="container-fluid d-flex justify-content-evenly pt-1 pb-1">
+      <a href="/">
+        <ion-icon class="active fs-2 nav-links" name="home"></ion-icon>
+      </a>
+      <a href="/">
+      <ion-icon class="fs-2 ph nav-links" name="person"></ion-icon>
+      </a>
+      <a href="/">
+      <ion-icon class="fs-2 ph nav-links" name="notifications"></ion-icon>
+      </a>
+    </div>
+  </nav>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+  <script type="module"src="/Javascript /app.js"></script>
+  <script type="module"src="/Javascript /scrollAnimation.js"></script>
+</body>
+
+</html>
